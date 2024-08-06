@@ -1,0 +1,14 @@
+[ 2024-08-06 16:27:37,491 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-06 16:27:37,504 ] 224 werkzeug - INFO -  * Debugger PIN: 310-212-460
+[ 2024-08-06 16:27:46,179 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 16:27:46,180 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-06 16:27:46,182 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_06_2024_16_27_34\data_ingestion
+[ 2024-08-06 16:28:02,134 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-06 16:28:02,134 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 16:28:02,135 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-06 16:28:02,135 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-06 16:28:02,186 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:28:02] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-06 16:28:02,274 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:28:02] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:28:02,339 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:28:02] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:28:02,737 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:28:02] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:28:03,007 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:28:03] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

@@ -1,0 +1,6 @@
+[ 2024-08-06 12:58:10,046 ] 160 numexpr.utils-INFO-NumExpr defaulting to 4 threads.
+[ 2024-08-06 12:58:15,659 ] 97 werkzeug-WARNING- * Debugger is active!
+[ 2024-08-06 12:58:15,674 ] 97 werkzeug-INFO- * Debugger PIN: 292-233-751
+[ 2024-08-06 12:59:21,061 ] 97 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 12:59:21] "GET / HTTP/1.1" 200 -
+[ 2024-08-06 12:59:21,221 ] 97 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 12:59:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-06 12:59:29,807 ] 97 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 12:59:29] "GET / HTTP/1.1" 200 -

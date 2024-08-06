@@ -1,0 +1,6 @@
+[ 2024-08-06 17:22:17,205 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-06 17:22:17,238 ] 97 werkzeug - INFO -  * Debugger PIN: 349-698-772
+[ 2024-08-06 17:22:27,476 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 17:22:27,476 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-06 17:22:27,477 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_06_2024_17_22_13\data_ingestion
+[ 2024-08-06 17:22:54,747 ] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\SIR\\Phishing-Classifier_EtE\\src\\components\\data_validation.py', reloading

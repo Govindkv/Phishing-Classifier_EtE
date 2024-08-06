@@ -1,0 +1,15 @@
+[ 2024-08-06 16:44:00,609 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-06 16:44:00,625 ] 224 werkzeug - INFO -  * Debugger PIN: 310-212-460
+[ 2024-08-06 16:44:09,000 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 16:44:09,000 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-06 16:44:09,002 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_06_2024_16_43_57\data_ingestion
+[ 2024-08-06 16:44:22,841 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-06 16:44:22,842 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 16:44:22,842 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-06 16:44:22,843 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-06 16:44:22,882 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:44:22] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-06 16:44:22,942 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:44:22] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:44:22,944 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:44:22] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:44:23,285 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:44:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:44:23,540 ] 224 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 16:44:23] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-06 16:45:55,941 ] 224 werkzeug - INFO -  * Detected change in 'c:\\users\\sir\\phishing-classifier_ete\\src\\components\\data_validation.py', reloading

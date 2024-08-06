@@ -1,0 +1,19 @@
+[ 2024-08-06 15:00:36,154 ] 224 werkzeug-WARNING- * Debugger is active!
+[ 2024-08-06 15:00:36,158 ] 224 werkzeug-INFO- * Debugger PIN: 126-405-928
+[ 2024-08-06 15:01:02,369 ] 67 root-INFO-Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 15:01:02,370 ] 37 root-INFO-Exporting data from mongodb
+[ 2024-08-06 15:01:02,371 ] 44 root-INFO-Saving exported data into feature store file path: artifacts\08_06_2024_15_00_34\data_ingestion
+[ 2024-08-06 15:01:46,127 ] 46 root-INFO-Shape of phising: (11055, 31)
+[ 2024-08-06 15:01:46,235 ] 72 root-INFO-Got the data from mongodb
+[ 2024-08-06 15:01:46,236 ] 74 root-INFO-Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 15:01:46,236 ] 138 root-INFO-Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-06 15:01:46,236 ] 141 root-INFO-Initiated data validation for the dataset
+[ 2024-08-06 15:01:46,238 ] 109 root-INFO-Validating file: artifacts\08_06_2024_15_00_34\data_ingestion\phising.csv
+[ 2024-08-06 15:01:46,239 ] 51 root-WARNING-Filename 'phising.csv' does not match expected pattern.
+[ 2024-08-06 15:01:46,350 ] 128 root-INFO-File artifacts\08_06_2024_15_00_34\data_ingestion\phising.csv is invalid.
+[ 2024-08-06 15:01:46,400 ] 224 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 15:01:46] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-06 15:01:46,746 ] 224 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 15:01:46] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-08-06 15:01:46,763 ] 224 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 15:01:46] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-08-06 15:01:47,013 ] 224 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 15:01:47] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-06 15:01:47,078 ] 224 werkzeug-INFO-127.0.0.1 - - [06/Aug/2024 15:01:47] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-08-06 15:09:22,572 ] 224 werkzeug-INFO- * Detected change in 'c:\\users\\sir\\phishing-classifier_ete\\src\\components\\data_ingestion.py', reloading

@@ -9,14 +9,11 @@ from src.exception import CustomException
 
 ca = certifi.where()
 
-import os
-import pymongo
-import sys
 
 class MongoDBClient:
     client = None
 
-    def __init__(self, database_name= MONGO_DATABASE_NAME) -> None :
+    def __init__(self, database_name=MONGO_DATABASE_NAME) -> None:
         try:
             if MongoDBClient.client is None:
                 mongo_db_url = os.getenv("MONGO_DB_URL")
@@ -28,6 +25,3 @@ class MongoDBClient:
             self.database_name = database_name
         except Exception as e:
             raise CustomException(e, sys)
-
-    def utils_init_Ppy_exception(self):
-        pass

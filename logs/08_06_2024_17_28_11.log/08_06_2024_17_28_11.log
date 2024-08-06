@@ -1,0 +1,25 @@
+[ 2024-08-06 17:28:15,826 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-06 17:28:15,849 ] 97 werkzeug - INFO -  * Debugger PIN: 349-698-772
+[ 2024-08-06 17:28:20,762 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:20] "GET / HTTP/1.1" 200 -
+[ 2024-08-06 17:28:24,191 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:24] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-06 17:28:24,248 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[ 2024-08-06 17:28:24,542 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:24] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2024-08-06 17:28:27,933 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 17:28:27,934 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-06 17:28:27,937 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_06_2024_17_28_13\data_ingestion
+[ 2024-08-06 17:28:49,318 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-06 17:28:49,319 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 17:28:49,319 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-06 17:28:49,319 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-06 17:28:49,348 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:49] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-06 17:28:49,377 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 17:28:49,377 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-06 17:28:49,378 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_06_2024_17_28_13\data_ingestion
+[ 2024-08-06 17:28:59,473 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-06 17:28:59,473 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-06 17:28:59,473 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-06 17:28:59,473 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-06 17:28:59,518 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:59] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-06 17:28:59,553 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:59] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-08-06 17:28:59,870 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:28:59] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-08-06 17:29:00,196 ] 97 werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 17:29:00] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
